@@ -1,11 +1,6 @@
+# Compliance Document Tracker
 
-
-
-# Statutory Document Management and Training Administration
-
-![alt text](docs/images/logo.png)
-
-- [Statutory Document Management and Training Administration](#statutory-document-management-and-training-administration)
+- [Compliance Document Tracker](#compliance-document-tracker)
   - [Introduction](#introduction)
   - [Configuration and Setup](#configuration-and-setup)
     - [Set up new Number Series](#set-up-new-number-series)
