@@ -1,44 +1,24 @@
 # Compliance Document Tracker
 
-- [Compliance Document Tracker](#compliance-document-tracker)
-  - [Introduction](#introduction)
-  - [Configuration and Setup](#configuration-and-setup)
-    - [Set up new Number Series](#set-up-new-number-series)
-    - [Capture Setup fields](#capture-setup-fields)
-    - [Issuing Authorities](#issuing-authorities)
-    - [Document Types](#document-types)
-    - [Entity Defaults](#entity-defaults)
-    - [Training Programmes](#training-programmes)
-    - [Training Subjects](#training-subjects)
-    - [Link Skills to Certifications](#link-skills-to-certifications)
-  - [Managing Documents for Entities](#managing-documents-for-entities)
-    - [Create a new document](#create-a-new-document)
-    - [Approve the document](#approve-the-document)
-  - [Managing documents from the entity - Example : Customer](#managing-documents-from-the-entity---example--customer)
-- [Administering Training](#administering-training)
-  - [Create a course](#create-a-course)
-  - [Schedule classes from a course](#schedule-classes-from-a-course)
-  - [Record attendance and results of classes](#record-attendance-and-results-of-classes)
-
-## Introduction 
-The application provides the ability to record details of documents that an organisation needs to keep track of.  These will include documents issued by external statutory bodies, including
-
-•	Government authorities for example company registrations, tax registrations, tax clearances
-•	Standards authorities such as ISO, TUV.
-•	Training and educational organisations such as universities, skills certification bodies.
-
-Documentation can be attached to various entities such as customers, vendors, items and resources.  
+- [Set up new Number Series](#set-up-new-number-series)
+- [Capture Setup fields](#capture-setup-fields)
+- [Issuing Authorities](#issuing-authorities)
+- [Document Types](#document-types)
+- [Entity Defaults](#entity-defaults)
+- [Training Programmes](#training-programmes)
+- [Training Subjects](#training-subjects)
+- [Link Skills to Certifications](#link-skills-to-certifications)
 
 ## Configuration and Setup
 
 ### Set up new Number Series
-1. Search for No. Series
-2. Create new number series for:
-   1. Statutory documents
-   2. Course Numbers
-   3. Training Tasks
-   4. Training Classes
-   5. Training document numbers (certificates)
+* Search for No. Series
+* Create new number series for:
+  * Statutory documents
+  * Course Numbers
+  * Training Tasks
+  * Training Classes
+  * Training document numbers (certificates)
 
 ### Capture Setup fields
 Search for Statutory Documents Setup.
@@ -137,75 +117,3 @@ This function allows you to define subjects on which you will offer training.
 * Next to each skill code, select the applicable certification
 
 ![alt text](docs/images/image-19.png)
-
-## Managing Documents for Entities
-An entity is a master record against which you wish to store and manage documents. This could be a supplier, customer, inventory item, fixed asset, resource or employee.
-
-You can manage the documents via an administration role centre, and you can also view and manage the documents for a particular entity from the relevant master maintenance record.
-
-Make sure that your profile is set to 'Document Manager'. The role centre should look something like this:
-
-![alt text](docs/images/image-19.png)
-
-### Create a new document
-1. Click on '+ Statutory Document' OR open one of the cues, and click New.
-   
-   ![alt text](docs/images/image-14.png)
-
-2. The Document No. will be allocated automatically from the number series defined during Setup.
-3. Enter the Document Association (Vendor / Customer / Item / Asset / Resource / Employee), and select an entity to which the document should be attached. 
-4. Select the document type. The system will automatically populate the validity and issuing authority.
-   
-   ![alt text](docs/images/image-15.png)
-
-5. Enter the date of issue.
-6. Enter the number of the document.
-8. If the documents have been received, attach them to the entry, and update the status to 'Received'.
-
-### Approve the document
-If you have the appropriate authority, you can update the status of the entry to 'Approved'.
-
-## Managing documents from the entity - Example : Customer
-1.  Select Customers.
-2.  Open the card for a customer.
-3.  To load the default document types, click on Customer -> Statutory Documents -> Create Default Statutory Documents.
-   
-![alt text](docs/images/image-16.png)
-
-4.  The Statutory Documents fact box will display a list of the documents required.
-
-![alt text](docs/images/image-17.png)
-
-5.  Click on Customer -> Statutory Documents -> Statutory Documents. This will open the list of documents linked to the customer. You can now capture the remaining information such as the date of issue.
-
-The above process applies to all entities.
-
-
-# Administering Training
-
-## Create a course
-To create a new training course, open the Training Courses cue from the role centre.
-Click on New.
-
-Select a programme ID from the drop down list. The system will allocate a Course ID.
-
-Enter a starting date.
-
-Capture details of the modules / subjects to be included in the course in the Training Course Modules subpage.
-
-Capture the course participants in the Training Course Registration subpage.
-
-## Schedule classes from a course
-From the course, click on Schedule Classes.  
-The system will create a new class for each session defined for the course, and assign all of the registered participants to each class.
-
-A pop up screen will appear, listing the sessions.
-
-![alt text](docs/images/image-18.png)
-
-Complete the schedule by capturing the course date and venue for each session.
-
-## Record attendance and results of classes
-Open the Classes cue. Select the course that you wish to record results for.
-Tick the Attended box for all students who attended the training.
-Where appropriate, capture the Evaluation result for the student.
