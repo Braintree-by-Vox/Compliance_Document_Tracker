@@ -7,8 +7,8 @@ The application provides the ability to record details of documents that an orga
 
 Documentation can be attached to various entities such as customers, vendors, items and resources.  
 
-## [Configuration and Setup](Compliance_Document_Tracker/Installation)
+## [Configuration and Setup](Installation)
 
-## [Compliance Document Tracker](Compliance_Document_Tracker/Installation)
+## [Compliance Document Tracker](DocumentTracker)
 
-## [Training Administration](Compliance_Document_Tracker/Installation)
+## [Training Administration](AdminTraining)

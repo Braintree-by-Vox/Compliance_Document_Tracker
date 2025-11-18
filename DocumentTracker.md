@@ -1,7 +1,5 @@
 # Compliance Document Tracker
 
-- [Compliance Document Tracker](#compliance-document-tracker)
-  - [Introduction](#introduction)
   - [Configuration and Setup](#configuration-and-setup)
     - [Set up new Number Series](#set-up-new-number-series)
     - [Capture Setup fields](#capture-setup-fields)
@@ -12,7 +10,7 @@
   - [Managing Documents for Entities](#managing-documents-for-entities)
     - [Create a new document](#create-a-new-document)
     - [Approve the document](#approve-the-document)
-  - [Managing documents from the entity - Example : Customer](#managing-documents-from-the-entity---example--customer)
+    - [Managing documents from the entity - Example : Customer](#managing-documents-from-the-entity---example--customer)
 
 ## Configuration and Setup
 
