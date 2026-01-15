@@ -1,12 +1,11 @@
 # Release notes
 
-# Release (Appsource version) (Braintree version)
+### Release 26.0.20260115.2 (Braintree version)
 
 <details>
-<summary>One-liner describing the issue (click for details)</summary>
+<summary>Bug fix: attachments on Service documents result in error. (click for details)</summary>
 <ul>
-<li>Line 1 of detail</li>
-<li>Line 2 of detail</li> 
+<li>Attempting to attach a document to a service document or posted service document caused error message. Issue resolved.</li>
 <!-- copy line above to add details -->
 </ul>
 </details>
